@@ -5,7 +5,8 @@ int main()
     int qtd_lados;
     float lados, area;
 
-    printf("Insira a quantidade de lados do Poligno: \n");
+    printf("Insira a quantidade de lados do Poligno: \n\n
+    Digite 3 - Para fazer a area de um triangulo");
     scanf("%d", &qtd_lados);
 
     // printf("Qual o tamanha dos lados: \n");
@@ -16,7 +17,7 @@ int main()
     case (3):
         printf("Qual o tamanho dos lados: \n");
         scanf("%f", &lados);
-        printf("A área desse polígono é: %2f", (lados * lados * .73) / 4);
+        printf("A área desse polígono é: %2f", (lados * lados * 1.73) / 4);
         break;
     case (4):
         printf("Qual o tamanho dos lados: \n");
